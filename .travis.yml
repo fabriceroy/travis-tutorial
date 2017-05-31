@@ -9,6 +9,8 @@ matrix:
 
 dist: trusty
 
+cache: pip
+
 script: py.test
 
 install: pip install numpy==$NUMPY_VERSION
