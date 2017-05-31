@@ -1,3 +1,5 @@
+import numpy as np
+
 def test_addition():
     assert 1 + 1 == 2
 
